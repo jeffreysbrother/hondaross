@@ -5,3 +5,11 @@ Author: James Cool
 Author URI: http://jeffreysbrother.com/
 Version: 1.0
 */
+
+
+/*front page*/
+.main-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 70px;
+}
