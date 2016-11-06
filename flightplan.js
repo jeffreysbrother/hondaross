@@ -1,8 +1,8 @@
 var plan = require('flightplan');
 
-var appName = 'public_html/wp-content/themes/hondaross';
+var appName = 'hondaross';
 var username = 'hondaros';
-var startFile = 'bin/www';
+var startFile = 'public_html/wp-content/themes/';
 
 var tmpDir = appName+'-' + new Date().getTime();
 
