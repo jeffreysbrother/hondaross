@@ -11,5 +11,14 @@ Version: 1.0
 .main-title {
   text-align: center;
   margin-top: 50px;
-  font-size: 70px;
+  font-size: 80px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+	.main-title {
+		font-size: 48px;
+	}
 }
