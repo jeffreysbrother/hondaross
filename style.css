@@ -7,18 +7,52 @@ Version: 1.0
 */
 
 
-/*front page*/
-.main-title {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 80px;
+/*general*/
+* {
+	color: #444;
 }
 
+
+
+/*front page*/
+.main-title {
+	margin-top: 50px;
+	font-size: 80px;
+	border-bottom: 5px solid orange;
+	display: inline-block;
+}
+.music-title {
+	border-bottom: 5px solid pink;
+	display: inline-block;
+	color: #555;
+}
+.life-title {
+	border-bottom: 5px solid green;
+	display: inline-block;
+	color: #666;
+}
+.spirit-title {
+	border-bottom: 5px solid blue;
+	display: inline-block;
+	color: #777;
+}
+.prof-title {
+	border-bottom: 5px solid yellow;
+	display: inline-block;
+	color: #888;
+}
+.soon-title {
+	border-bottom: 5px solid gray;
+	display: inline-block;
+	color: #999;
+}
 
 
 
 @media screen and (max-width: 767px) {
 	.main-title {
+		display: block;
+		text-align: center;
 		font-size: 48px;
 	}
 }
