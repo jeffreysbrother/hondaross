@@ -18,17 +18,17 @@ Version: 1.0
 
 h1, h4 {
 	display: block;
-	padding-bottom: 10px;
 }
 h4 {
 	color: #666;
+	padding: 10px 0 10px 0;
 }
 .main-title {
 	margin-top: 50px;
 	font-size: 80px;
-	border-bottom: 5px solid orange;
+	border-bottom: 1px solid orange;
 }
-.music-title {
+/*.music-title {
 	border-bottom: 5px solid pink;
 }
 .life-title {
@@ -39,7 +39,7 @@ h4 {
 }
 .prof-title {
 	border-bottom: 5px solid #ccc;
-}
+}*/
 .soon-title {
 	margin-top: 40px;
 	font-size: 20px;
@@ -53,12 +53,7 @@ h4 {
 @media screen and (max-width: 767px) {
 	.main-title {
 		display: block;
-		text-align: center;
 		font-size: 48px;
 		margin-top: 20px;
-	}
-	.soon-title {
-		display: block;
-		text-align: center;
 	}
 }
