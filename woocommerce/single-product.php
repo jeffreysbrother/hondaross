@@ -10,14 +10,16 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see 	    https://docs.woothemes.com/document/template-structure/
+ * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
  * @version     1.6.4
  */
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
+
 get_header( 'shop' ); ?>
 
 	<?php
@@ -51,7 +53,9 @@ get_header( 'shop' ); ?>
 		 *
 		 * @hooked woocommerce_get_sidebar - 10
 		 */
-		// do_action( 'woocommerce_sidebar' );
+		do_action( 'woocommerce_sidebar' );
 	?>
 
-<?php get_footer( 'shop' ); ?>
+<?php get_footer( 'shop' );
+
+/* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */
