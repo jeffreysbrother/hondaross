@@ -32,17 +32,16 @@ h4 {
 	border-bottom: 5px solid pink;
 }
 .life-title {
-	border-bottom: 5px solid green;
+	border-bottom: 5px solid lightgreen;
 }
 .spirit-title {
-	border-bottom: 5px solid blue;
+	border-bottom: 5px solid lightblue;
 }
 .prof-title {
-	border-bottom: 5px solid gray;
+	border-bottom: 5px solid #ccc;
 }
 .soon-title {
-	text-align: center;
-	margin-top: 30px;
+	margin-top: 40px;
 	font-size: 20px;
 }
 
@@ -52,5 +51,10 @@ h4 {
 		display: block;
 		text-align: center;
 		font-size: 48px;
+		margin-top: 20px;
+	}
+	.soon-title {
+		display: block;
+		text-align: center;
 	}
 }
